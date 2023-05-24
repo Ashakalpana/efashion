@@ -1,0 +1,19 @@
+
+
+.home {
+    display: flex; 
+     flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://images.pexels.com/photos/6331238/pexels-photo-6331238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
+  .home h1{
+    color :black;
+}
+.home h2{
+    color:rosybrown;
+}

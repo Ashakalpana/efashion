@@ -1,0 +1,291 @@
+ .cart-container {
+    display: flex;  
+   justify-content: center; 
+  align-items: center;
+    min-height: 100vh;  
+  background-color: #f5f5f5;
+}
+
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+   /* width: 80%; */
+  max-width: 800px; 
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-table {
+  border: none;
+  /* border-radius: 3px; */
+  font-weight: bold;
+  padding: 8px 12px;
+  width: 100px;
+  cursor: pointer;
+
+
+
+  min-width: none;
+   width: 10px; 
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart-table th,
+.cart-table td {
+  /* padding: 10px; */
+  text-align: center;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.cart-table img {
+  width: 80px;
+}
+
+.quantity {
+ display: flex; 
+  align-items:left; 
+}
+
+.quantity-btn {
+  background-color:black;
+  border: none;
+  padding: 5px;
+  cursor: pointer; 
+}
+
+.quantity p {
+  margin: 0 10px;
+}
+
+/* .remove-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer; border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+ */
+
+
+.order-summary {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  /* border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+/* .text-center {
+  text-align: center;
+} */
+
+.subtotal,
+.delivery-charges,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.free-shipping {
+  color: green;
+}
+
+.fixed-top-right8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.address-dropdown {
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.clear {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background-color: darkred;
+} 
+
+
+
+
+
+
+
+/* .order-summary {
+
+  margin: 0 auto;
+  text-align: center;
+  width: 350px;
+  position: fixed;
+  left: 65%;
+  top: 20%;
+  height: 200px;
+ 
+}
+
+.subtotal,
+.delivery-charges,
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 30px;
+  font-size: medium;
+}
+
+.checkout-btn button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.checkout-btn button:hover {
+  background-color: #218838;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 250px;
+
+}
+
+.quantity-btn {
+  background-color: #ccc;
+  color: #333;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+
+  
+}
+
+.quantity-btn:hover {
+  background-color: #bbb;
+}
+
+.quantity p {
+  font-size: 18px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  
+}
+.product-info{
+  display: flex;
+  flex-direction: row;
+
+}
+.shop{
+  padding-left:15px ;
+}
+
+.empty{
+  padding-left: 500px;
+  font-size: large;
+}
+
+.cart-table{
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+  
+}
+
+.table{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+   width: 700px; 
+}
+.tab{
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  border-radius: 2rem;
+  margin-bottom: 30px;
+  width: 700px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3);
+  
+}
+.table img{
+  width:80px;
+  height: 80px;
+   padding-left:30px ; 
+}
+
+
+.pro-inf{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: medium;
+  text-align: left;
+}
+
+.information{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+address-select {
+  margin-bottom: 20px;
+}
+
+.address-dropdown {
+  width: 200px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.address-placeholder {
+  margin-top: 8px;
+  color: red;
+}
+
+.checkbutton{
+  padding-top: 5px;
+  margin-top:10px ;
+}
+
+  */

@@ -1,0 +1,81 @@
+.user-orders-container {
+    margin: 20px;
+  }
+  
+  .order-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .order-table th, .order-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  .order-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .order-row:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .order-details-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .order-details-button:hover {
+    background-color: #45a049;
+  }
+  
+  .background-details {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .order-summary-page {
+    background-color: white;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .order-summary-page p {
+    margin-bottom: 8px;
+  }
+  
+  .btnnn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btnnn:hover {
+    background-color: #d32f2f;
+  }  
